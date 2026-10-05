@@ -58,7 +58,7 @@ Isaac S. // isaacsa2
 
 <div align="center">
 
-[![openOMSI](https://img.shields.io/badge/OPEN-openOMSI-F47F30?style=for-the-badge&logo=github&logoColor=white)](https://github.com/isaacsa2/openOMSI)
+[![openOMSI](https://img.shields.io/badge/OPEN-openOMSI-F47F30?style=for-the-badge&logo=github&logoColor=white)](https://github.com/openOMSI-Project/openOMSI)
 
 `Controls` · `FFB` · `Multiplayer` · `Rendering` · `Performance` · `Android` · `Compatibility`
 
