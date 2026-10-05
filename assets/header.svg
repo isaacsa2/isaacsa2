@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="45%" stop-color="#0b2344"/>
+      <stop offset="100%" stop-color="#07111f"/>
+      <animate attributeName="x1" values="0%;35%;0%" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;65%;100%" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity=".42"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="round"><rect width="1000" height="260" rx="24"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="260" fill="url(#bg)"/>
+    <circle cx="110" cy="65" r="180" fill="url(#glow)">
+      <animate attributeName="cx" values="80;260;80" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="840" cy="190" r="220" fill="url(#glow)" opacity=".62">
+      <animate attributeName="cx" values="900;730;900" dur="12s" repeatCount="indefinite"/>
+    </circle>
+
+    <g stroke="#58a6ff" stroke-opacity=".08">
+      <path d="M0 40H1000M0 80H1000M0 120H1000M0 160H1000M0 200H1000M0 240H1000"/>
+      <path d="M80 0V260M160 0V260M240 0V260M320 0V260M400 0V260M480 0V260M560 0V260M640 0V260M720 0V260M800 0V260M880 0V260M960 0V260"/>
+    </g>
+
+    <rect x="-250" y="0" width="180" height="260" fill="#58a6ff" opacity=".045" transform="skewX(-22)">
+      <animate attributeName="x" values="-250;1150" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="500" y="95" text-anchor="middle" fill="#ffffff" font-size="48" font-weight="700" font-family="Arial, Helvetica, sans-serif" letter-spacing="1">
+      Isaac S. // isaacsa2
+    </text>
+    <text x="500" y="132" text-anchor="middle" fill="#8ecaff" font-size="17" font-family="monospace">
+      developer • systems • open source • AI
+    </text>
+
+    <g font-family="monospace" font-size="14">
+      <rect x="315" y="155" width="370" height="42" rx="10" fill="#020817" fill-opacity=".75" stroke="#1f6feb" stroke-opacity=".55"/>
+      <text x="335" y="181" fill="#58a6ff">$</text>
+      <text x="352" y="181" fill="#c9d1d9">build --break --debug --repeat</text>
+      <rect x="646" y="166" width="8" height="18" rx="1" fill="#58a6ff">
+        <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <text x="1020" y="232" fill="#7dd3fc" opacity=".72" font-size="13" font-family="monospace">
+      CODE • SIMULATION • AI • OPEN SOURCE • ROBOTICS • BUG HUNTING •
+      <animate attributeName="x" from="1020" to="-720" dur="15s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
