@@ -21,13 +21,13 @@
 
 🇧🇷 **PT-BR**
 
-Sou **Isaac S.** — estudante de **Sistemas de Informação** e programador com mania de cutucar software até entender como ele funciona.
+Sou **Isaac S.** — estudante de **Sistemas de Informação** que gosta de programar, testar ideias e cutucar software até entender como ele funciona.
 
 Curto IA, simulação, sistemas, web, robótica e open source. Se alguma coisa quebra de um jeito estranho, existe uma chance preocupantemente alta de eu acabar lendo renderer, driver, log ou código às 3 da manhã só pra descobrir **por quê**.
 
 🇺🇸 **EN**
 
-I'm **Isaac S.** — an **Information Systems** student and developer who likes poking at software until I understand how it works.
+I'm **Isaac S.** — an **Information Systems** student who likes coding, testing ideas and poking at software until I understand how it works.
 
 I'm into AI, simulation, systems, web, robotics and open source. If something breaks in a particularly weird way, there's a suspiciously high chance I'll end up reading renderer code, drivers or logs at 3 AM just to find out **why**.
 
