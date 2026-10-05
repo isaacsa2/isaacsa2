@@ -1,10 +1,10 @@
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0D1117,45:0969DA,100:00D4FF&text=Isaac%20S.%20%2F%2F%20isaacsa2&fontColor=FFFFFF&fontSize=45&fontAlignY=38&desc=Code%20%E2%80%A2%20Simulation%20%E2%80%A2%20AI%20%E2%80%A2%20Open%20Source%20%E2%80%A2%20Chaos&descAlignY=58&animation=fadeIn" alt="Isaac S. // isaacsa2" />
+  <img width="100%" src="https://raw.githubusercontent.com/isaacsa2/isaacsa2/main/assets/header.svg" alt="Isaac S. // isaacsa2" />
 </p>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=700&color=58A6FF&center=true&vCenter=true&width=900&lines=Ol%C3%A1!+Eu+sou+o+Isaac+%F0%9F%91%8B;Hey!+I'm+Isaac+%F0%9F%91%8B;Eu+quebro+coisas+pra+entender+como+funcionam...;I+break+things+to+understand+how+they+work...;...e+depois+eu+tento+consertar+%F0%9F%98%AD;...and+then+I+try+to+fix+them+%F0%9F%98%AD;Rust+%E2%80%A2+Web+%E2%80%A2+AI+%E2%80%A2+Simulation+%E2%80%A2+Open+Source)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=700&color=58A6FF&center=true&vCenter=true&width=900&lines=Ol%C3%A1!+Eu+sou+o+Isaac+%F0%9F%91%8B;Hey!+I'm+Isaac+%F0%9F%91%8B;Eu+quebro+coisas+pra+entender+como+funcionam...;I+break+things+to+understand+how+they+work...;...e+depois+eu+tento+consertar+%F0%9F%98%AD;...and+then+I+try+to+fix+them+%F0%9F%98%AD)](https://github.com/denvercoder1/readme-typing-svg)
 
 <br>
 
@@ -19,15 +19,17 @@
 
 ## `whoami`
 
-🇧🇷 **PT-BR**  
-Sou **Isaac S.**, estudante de **Sistemas de Informação**, programador e curioso profissional de tudo que envolve software, IA, simulação, sistemas e robótica.
+🇧🇷 **PT-BR**
 
-Tenho um pequeno problema: quando alguma coisa quebra, eu não consigo simplesmente aceitar. Eu preciso descobrir **por quê**. Às vezes isso termina em uma correção. Às vezes termina comigo às 3 da manhã lendo código de renderer e driver de GPU. Faz parte. 😭
+Sou **Isaac S.** — estudante de **Sistemas de Informação** e programador com mania de cutucar software até entender como ele funciona.
 
-🇺🇸 **EN**  
-I'm **Isaac S.**, an **Information Systems** student, developer and professional curious person when it comes to software, AI, simulation, systems and robotics.
+Curto IA, simulação, sistemas, web, robótica e open source. Se alguma coisa quebra de um jeito estranho, existe uma chance preocupantemente alta de eu acabar lendo renderer, driver, log ou código às 3 da manhã só pra descobrir **por quê**.
 
-I have a small problem: when something breaks, I can't just accept it. I need to know **why**. Sometimes that ends with a fix. Sometimes it ends with me reading renderer and GPU-driver code at 3 AM. It happens. 😭
+🇺🇸 **EN**
+
+I'm **Isaac S.** — an **Information Systems** student and developer who likes poking at software until I understand how it works.
+
+I'm into AI, simulation, systems, web, robotics and open source. If something breaks in a particularly weird way, there's a suspiciously high chance I'll end up reading renderer code, drivers or logs at 3 AM just to find out **why**.
 
 ```text
 Isaac S. // isaacsa2
@@ -46,13 +48,13 @@ Isaac S. // isaacsa2
 
 <div align="center">
 
-### Modern engine. Old simulator. Lots of bugs to hunt.
+### Modern engine. Old simulator. Plenty of weird bugs to chase.
 
 </div>
 
-🇧🇷 Tenho contribuído e testado bastante o **openOMSI**, uma recriação open source do motor do OMSI 2. Normalmente acabo metido em controles, volantes, Force Feedback, multiplayer, renderer, performance, Android, compatibilidade e bugs estranhamente específicos.
+🇧🇷 Tenho contribuído e testado bastante o **openOMSI**, uma recriação open source do motor do OMSI 2. Normalmente acabo no meio de controles, volantes, Force Feedback, multiplayer, renderer, performance, Android, compatibilidade e bugs específicos demais pra parecer coincidência.
 
-🇺🇸 I've been actively contributing to and testing **openOMSI**, an open-source recreation of the OMSI 2 engine. I usually end up around controls, steering wheels, Force Feedback, multiplayer, rendering, performance, Android, compatibility and suspiciously specific bugs.
+🇺🇸 I've been actively contributing to and testing **openOMSI**, an open-source recreation of the OMSI 2 engine. I usually end up somewhere around controls, steering wheels, Force Feedback, multiplayer, rendering, performance, Android, compatibility and bugs that are way too specific to feel normal.
 
 <div align="center">
 
@@ -97,12 +99,12 @@ Isaac S. // isaacsa2
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=isaacsa2&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isaacsa2&layout=compact&hide_border=true&theme=github_dark" alt="Top languages" />
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=isaacsa2&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" alt="GitHub stats" />
+<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isaacsa2&layout=compact&hide_border=true&theme=github_dark" alt="Top languages" />
 
 <br><br>
 
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=isaacsa2&theme=github-compact&hide_border=true&area=true" alt="Contribution activity graph" />
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=isaacsa2&theme=github-compact&hide_border=true&area=true" alt="Contribution activity graph" />
 
 </div>
 
@@ -112,7 +114,11 @@ Isaac S. // isaacsa2
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/isaacsa2/isaacsa2/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/isaacsa2/isaacsa2/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/isaacsa2/isaacsa2/output/github-contribution-grid-snake.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/isaacsa2/isaacsa2/output/github-contribution-grid-snake.svg">
+</picture>
 
 <sub>sim, a cobra está comendo meus commits · yes, the snake is eating my commits</sub>
 
@@ -122,14 +128,12 @@ Isaac S. // isaacsa2
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=900&color=8B949E&center=true&vCenter=true&width=850&lines=Programando%2C+testando+e+tentando+n%C3%A3o+criar+um+bug+novo...;Coding%2C+testing+and+trying+not+to+create+another+bug...;Spoiler%3A+%C3%A0s+vezes+eu+crio+%F0%9F%98%AD;Spoiler%3A+sometimes+I+do+%F0%9F%98%AD)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=900&color=8B949E&center=true&vCenter=true&width=850&lines=Programando%2C+testando+e+tentando+n%C3%A3o+criar+um+bug+novo...;Coding%2C+testing+and+trying+not+to+create+another+bug...;Spoiler%3A+%C3%A0s+vezes+eu+crio+%F0%9F%98%AD;Spoiler%3A+sometimes+I+do+%F0%9F%98%AD)](https://github.com/denvercoder1/readme-typing-svg)
 
 ### `Isaac S. // isaacsa2`
-
-<sub>Bahia, Brasil 🇧🇷</sub>
 
 </div>
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=115&section=footer&color=0:0D1117,45:0969DA,100:00D4FF" alt="Footer" />
+  <img width="100%" src="https://raw.githubusercontent.com/isaacsa2/isaacsa2/main/assets/footer.svg" alt="Footer" />
 </p>
