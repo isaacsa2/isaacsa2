@@ -99,8 +99,8 @@ Isaac S. // isaacsa2
 
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=isaacsa2&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" alt="GitHub stats" />
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=isaacsa2&layout=compact&hide_border=true&theme=github_dark" alt="Top languages" />
+<img width="48%" src="https://raw.githubusercontent.com/isaacsa2/isaacsa2/main/assets/github-stats.svg" alt="GitHub stats" />
+<img width="48%" src="https://raw.githubusercontent.com/isaacsa2/isaacsa2/main/assets/top-languages.svg" alt="Top languages" />
 
 <br><br>
 
