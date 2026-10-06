@@ -104,7 +104,7 @@ Isaac S. // isaacsa2
 
 <br><br>
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=isaacsa2&theme=github-compact&hide_border=true&area=true" alt="Contribution activity graph" />
+<img width="96%" src="https://raw.githubusercontent.com/isaacsa2/isaacsa2/main/assets/activity-graph.svg" alt="Contribution activity graph" />
 
 </div>
 
