@@ -1,6 +1,8 @@
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/isaacsa2/isaacsa2/main/assets/header.svg" alt="Isaac S. // isaacsa2" />
+  <img width="100%" src="https://raw.githubusercontent.com/isaacsa2/isaacsa2/main/assets/header.svg" alt="Isaacsa2 | Isaac S." />
 </p>
+
+<h1 align="center">Isaacsa2 | Isaac S.</h1>
 
 <div align="center">
 
@@ -21,18 +23,18 @@
 
 🇧🇷 **PT-BR**
 
-Sou **Isaac S.** — estudante de **Sistemas de Informação** que gosta de programar, testar ideias e cutucar software até entender como ele funciona.
+Sou **Isaac S.**, conhecido online como **Isaacsa2** — estudante de **Sistemas de Informação** que gosta de programar, testar ideias e cutucar software até entender como ele funciona.
 
 Curto IA, simulação, sistemas, web, robótica e open source. Se alguma coisa quebra de um jeito estranho, existe uma chance preocupantemente alta de eu acabar lendo renderer, driver, log ou código às 3 da manhã só pra descobrir **por quê**.
 
 🇺🇸 **EN**
 
-I'm **Isaac S.** — an **Information Systems** student who likes coding, testing ideas and poking at software until I understand how it works.
+I'm **Isaac S.**, also known online as **Isaacsa2** — an **Information Systems** student who likes coding, testing ideas and poking at software until I understand how it works.
 
 I'm into AI, simulation, systems, web, robotics and open source. If something breaks in a particularly weird way, there's a suspiciously high chance I'll end up reading renderer code, drivers or logs at 3 AM just to find out **why**.
 
 ```text
-Isaac S. // isaacsa2
+Isaacsa2 | Isaac S.
 ├─ code
 ├─ simulation
 ├─ artificial intelligence
@@ -58,9 +60,23 @@ Isaac S. // isaacsa2
 
 <div align="center">
 
-[![openOMSI](https://img.shields.io/badge/OPEN-openOMSI-F47F30?style=for-the-badge&logo=github&logoColor=white)](https://github.com/openOMSI-Project/openOMSI)
+[![openOMSI](https://img.shields.io/badge/OPEN-openOMSI-F47F30?style=for-the-badge&logo=github&logoColor=white)](https://github.com/openOMSI-org/openOMSI)
 
 `Controls` · `FFB` · `Multiplayer` · `Rendering` · `Performance` · `Android` · `Compatibility`
+
+</div>
+
+---
+
+## 🌐 NCT Transportes
+
+🇧🇷 Idealizei o **NCT Transportes**, um projeto do Grupo NCT para registrar e preservar fotografias e informações sobre transportes virtuais do Roblox, OMSI 2 e Proton Bus Simulator.
+
+🇺🇸 I created **NCT Transportes**, a Grupo NCT project documenting and preserving photos and information about virtual transport in Roblox, OMSI 2 and Proton Bus Simulator.
+
+<div align="center">
+
+[![NCT Transportes](https://img.shields.io/badge/VISIT-NCT_Transportes-0969DA?style=for-the-badge&logo=cloudflare&logoColor=white)](https://isaacsa2.online)
 
 </div>
 
@@ -130,7 +146,7 @@ Isaac S. // isaacsa2
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=900&color=8B949E&center=true&vCenter=true&width=850&lines=Programando%2C+testando+e+tentando+n%C3%A3o+criar+um+bug+novo...;Coding%2C+testing+and+trying+not+to+create+another+bug...;Spoiler%3A+%C3%A0s+vezes+eu+crio+%F0%9F%98%AD;Spoiler%3A+sometimes+I+do+%F0%9F%98%AD)](https://github.com/denvercoder1/readme-typing-svg)
 
-### `Isaac S. // isaacsa2`
+### `Isaacsa2 | Isaac S.`
 
 </div>
 
