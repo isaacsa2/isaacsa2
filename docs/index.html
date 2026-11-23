@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Portfólio de Isaac S. Projetos de desenvolvimento, sistemas, suporte de TI e contribuições open source.">
+  <title>Isaac S. | Portfolio</title>
+  <style>
+    :root { color-scheme:dark; --bg:#090e1a; --layer:#121b2c; --layer2:#19243a; --text:#e9f0ff; --muted:#a2b4cf; --edge:#2b3850; --blue:#65b8ff; --gold:#f8c97e; --mint:#6be0bc; }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:radial-gradient(ellipse 85% 34% at 50% -8%,#1d4061 0%,transparent 75%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:inherit;text-decoration:none} a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:4px} img{max-width:100%;height:auto}
+    .wrap{width:min(1120px,calc(100% - 40px));margin-inline:auto} .skip{position:absolute;left:-9999px} .skip:focus{left:18px;top:16px;z-index:9;background:#fff;color:#000;padding:8px 12px}
+    header{position:sticky;top:0;z-index:5;background:#0a1020ed;backdrop-filter:blur(16px);border-bottom:1px solid #23324a}
+    nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px} .brand{font-weight:850;font-size:1.3rem;letter-spacing:-.05em}.brand span{color:var(--blue)}
+    .navlinks{display:flex;align-items:center;gap:22px;flex-wrap:wrap}.navlinks a{font-size:.91rem;color:#c9d8eb}.navlinks a:hover{color:#fff}
+    .toggle{display:flex;gap:3px;border:1px solid var(--edge);border-radius:10px;padding:3px}.toggle button{border:0;background:transparent;border-radius:7px;padding:5px 11px;color:var(--muted);cursor:pointer;font-weight:800}
+    .toggle button[aria-pressed="true"]{background:#293b58;color:white}
+    body[data-language="pt"] .lang-en,body[data-language="en"] .lang-pt{display:none!important}
+    .hero{display:grid;grid-template-columns:minmax(0,1fr) 290px;align-items:center;gap:38px;padding:90px 0 80px}.eyebrow{text-transform:uppercase;font-size:.8rem;font-weight:800;letter-spacing:.18em;color:var(--mint);margin:0 0 16px}
+    h1,h2,h3,p{margin-top:0} h1{font-size:clamp(2.75rem,6.2vw,5.3rem);line-height:1.09;letter-spacing:-.064em;margin-bottom:22px} h1 em{font-style:normal;background:linear-gradient(100deg,var(--blue),var(--gold));background-clip:text;-webkit-background-clip:text;color:transparent}
+    .lead{font-size:clamp(1.05rem,2vw,1.2rem);line-height:1.75;color:var(--muted);max-width:680px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+    .btn{border:1px solid #4d6586;padding:11px 18px;border-radius:10px;font-weight:750;display:inline-flex;gap:8px;align-items:center;justify-content:center;transition:transform .2s,background .2s}
+    .btn:hover{transform:translateY(-2px);background:#20314a}.btn.primary{background:linear-gradient(110deg,#77bdff,#9ad8d0);color:#0c192c;border-color:transparent}.btn.primary:hover{background:#b8e9ff}
+    .portrait{border-radius:28px;padding:13px;background:linear-gradient(140deg,#25517e,#152438 55%,#775a31);box-shadow:0 25px 80px #0007;transform:rotate(2deg)}.portrait img{border-radius:18px;display:block;width:100%;aspect-ratio:1;object-fit:cover;background:#17253c}
+    .portrait small{display:block;text-align:center;padding:12px 2px 4px;color:#dce9fb;letter-spacing:.09em}
+    section{padding:58px 0;scroll-margin-top:85px} .section-title{display:flex;align-items:center;gap:16px;margin-bottom:10px} .section-title span{color:var(--gold);font:700 .84rem ui-monospace,SFMono-Regular,Consolas,monospace} h2{font-size:clamp(1.8rem,4vw,2.5rem);letter-spacing:-.045em;line-height:1.2;margin:0} .sub{color:var(--muted);max-width:790px;margin-bottom:28px}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.project{background:linear-gradient(150deg,#15253c,#0f1929);border:1px solid var(--edge);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;min-width:0;transition:transform .2s,border-color .2s}.project:hover{transform:translateY(-4px);border-color:#6ea4d4}
+    .project-head{padding:24px 24px 8px}.project-code{color:var(--gold);font:750 .75rem ui-monospace,Consolas,monospace;letter-spacing:.1em;text-transform:uppercase}.project h3{font-size:1.4rem;line-height:1.3;letter-spacing:-.035em;margin:7px 0 12px}.project p{color:var(--muted);font-size:.94rem}.tags{display:flex;flex-wrap:wrap;gap:7px;padding:0 24px 22px}.tags span{border:1px solid #37516b;color:#b9d9ef;background:#142a3d;border-radius:7px;padding:3px 8px;font-size:.75rem}
+    .project-actions{border-top:1px solid var(--edge);padding:14px 24px;display:flex;flex-wrap:wrap;gap:15px;margin-top:auto}.project-actions a{color:#92cbff;font-weight:750;font-size:.86rem}.project-actions a:hover{text-decoration:underline}
+    .evidence{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.fact{padding:22px;border-radius:17px;background:var(--layer);border:1px solid var(--edge)}.fact .n{color:var(--mint);font-weight:800;font-size:1.1rem;margin:0 0 10px}.fact p{color:var(--muted);font-size:.91rem;margin-bottom:10px}.fact a{color:var(--blue);font-size:.85rem;font-weight:700}
+    .about{display:grid;grid-template-columns:1.2fr .8fr;gap:22px}.panel{background:var(--layer);border:1px solid var(--edge);border-radius:18px;padding:25px}.panel h3{margin-bottom:12px}.panel p,.panel li{color:var(--muted)}.panel ul{padding-left:20px;margin-bottom:0}
+    .contact{border:1px solid #49617e;border-radius:23px;padding:40px;background:linear-gradient(110deg,#193351,#152338 60%,#2a2830)}.contact h2{margin-bottom:14px}.contact p{color:#c4d6ec;max-width:700px}
+    footer{border-top:1px solid var(--edge);padding:28px 0 40px;color:var(--muted);font-size:.85rem}.foot{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+    @media(max-width:760px){.hero{grid-template-columns:1fr;padding:65px 0 50px}.portrait{display:none}.navlinks{gap:9px}.navlinks>a{display:none}.grid,.evidence,.about{grid-template-columns:1fr}.contact{padding:25px}section{padding:42px 0}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.project{transition:none}}
+  </style>
+</head>
+<body data-language="pt">
+  <a class="skip" href="#main">Pular para o conteúdo / Skip to content</a>
+  <header><nav class="wrap" aria-label="Navegação principal">
+    <a class="brand" href="#main">Isaac<span>S.</span></a>
+    <div class="navlinks">
+      <a href="#projects"><span class="lang-pt">Projetos</span><span class="lang-en">Projects</span></a>
+      <a href="#open-source">Open source</a>
+      <a href="#about"><span class="lang-pt">Sobre</span><span class="lang-en">About</span></a>
+      <a href="#contact"><span class="lang-pt">Contato</span><span class="lang-en">Contact</span></a>
+      <div class="toggle" role="group" aria-label="Language">
+        <button type="button" data-set-lang="pt" aria-pressed="true">PT</button><button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </nav></header>
+  <main id="main">
+    <div class="wrap hero">
+      <div>
+        <p class="eyebrow">Feira de Santana · Bahia · Brasil</p>
+        <h1><span class="lang-pt">Oi, eu sou o <em>Isaac.</em></span><span class="lang-en">Hey, I'm <em>Isaac.</em></span></h1>
+        <p class="lead lang-pt">Estudante de <strong>Sistemas de Informação</strong>, desenvolvedor de projetos web e colaborador de software open source. Tenho interesse em <strong>suporte técnico, infraestrutura, hardware e desenvolvimento</strong>. Gosto de entender o problema até encontrar a causa — e de documentar a solução.</p>
+        <p class="lead lang-en"><strong>Information Systems</strong> student building web projects and contributing to open-source software. Interested in <strong>IT support, infrastructure, hardware and software development</strong>. I enjoy tracing problems to their root cause and documenting the fix.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects"><span class="lang-pt">Ver projetos</span><span class="lang-en">Explore projects</span> ↓</a>
+          <a class="btn" href="https://github.com/isaacsa2" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="portrait"><img src="https://avatars.githubusercontent.com/u/107325320?v=4" alt="Avatar de Isaac S. no GitHub"><small>ISAAC S. / @isaacsa2</small></div>
+    </div>
+    <section id="projects" class="wrap">
+      <div class="section-title"><span>01 /</span><h2><span class="lang-pt">Projetos selecionados</span><span class="lang-en">Selected projects</span></h2></div>
+      <p class="sub lang-pt">Projetos próprios e contribuições colaborativas, com código público e exemplos reais do que venho aprendendo.</p>
+      <p class="sub lang-en">Personal work and collaborative contributions, backed by public source code and practical examples of what I'm learning.</p>
+      <div class="grid">
+        <article class="project">
+          <div class="project-head"><span class="project-code">01 · Web tool</span><h3>AC6C Tune Maker</h3>
+          <p class="lang-pt">Ferramenta web para configurar e exportar ajustes de veículos A-Chassis/AC6C no Roblox, com cálculos de motor, transmissão, suspensão, freios e exportação em Luau.</p>
+          <p class="lang-en">Browser-based tuner for Roblox A-Chassis/AC6C vehicles, covering engine, drivetrain, suspension and brakes, with Luau export.</p></div>
+          <div class="tags"><span>JavaScript</span><span>HTML/CSS</span><span>Cloudflare Workers</span><span>Luau</span></div>
+          <div class="project-actions"><a href="https://ac6.isaacsa2.online/" target="_blank" rel="noopener noreferrer">Live demo ↗</a><a href="https://github.com/isaacsa2/AC6" target="_blank" rel="noopener noreferrer"><span class="lang-pt">Código</span><span class="lang-en">Source</span> ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-head"><span class="project-code">02 · Full stack / academic</span><h3>ERP by Isaac</h3>
+          <p class="lang-pt">ERP educacional de uma padaria fictícia com estoque, PDV, clientes, relatórios e laboratório SQL. Inclui modos de aprendizado e demonstração com dados fictícios.</p>
+          <p class="lang-en">Educational ERP for a fictional bakery, featuring inventory, point of sale, customers, reports and a SQL lab. Includes a demo with fictional data.</p></div>
+          <div class="tags"><span>Python</span><span>Flask</span><span>SQLAlchemy</span><span>SQLite</span><span>Bootstrap</span></div>
+          <div class="project-actions"><a href="https://erpbyisaacsa2.onrender.com/" target="_blank" rel="noopener noreferrer"><span class="lang-pt">Demo didática</span><span class="lang-en">Learning demo</span> ↗</a><a href="https://github.com/isaacsa2/erpbyisaacsa2" target="_blank" rel="noopener noreferrer"><span class="lang-pt">Código</span><span class="lang-en">Source</span> ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-head"><span class="project-code">03 · Open-source contributor</span><h3>openOMSI</h3>
+          <p class="lang-pt">Contribuições para uma recriação open source do simulador OMSI 2 em Rust. Pull requests mescladas relacionadas a atualizações, interface, renderização e estabilidade.</p>
+          <p class="lang-en">Contributions to a Rust-based open-source recreation of OMSI 2. Merged pull requests covering updates, interface, rendering and stability.</p></div>
+          <div class="tags"><span>Rust</span><span>CI</span><span>Performance</span><span>Multiplayer</span></div>
+          <div class="project-actions"><a href="https://github.com/openOMSI-org/openOMSI" target="_blank" rel="noopener noreferrer"><span class="lang-pt">Projeto</span><span class="lang-en">Project</span> ↗</a><a href="https://github.com/openOMSI-org/openOMSI/pull/4148" target="_blank" rel="noopener noreferrer">Merged PR #4148 ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-head"><span class="project-code">04 · Open-source contributor</span><h3>openMapper</h3>
+          <p class="lang-pt">Participação em editor visual de mapas do ecossistema openOMSI. Contribuições mescladas para fallback de backend gráfico, segurança de salvamento e dependências.</p>
+          <p class="lang-en">Contributions to a visual map editor in the openOMSI ecosystem. Merged changes for graphics backend fallback, safe file saving and dependencies.</p></div>
+          <div class="tags"><span>Rust</span><span>Graphics</span><span>Reliability</span></div>
+          <div class="project-actions"><a href="https://github.com/openOMSI-org/openMapper" target="_blank" rel="noopener noreferrer"><span class="lang-pt">Projeto</span><span class="lang-en">Project</span> ↗</a><a href="https://github.com/openOMSI-org/openMapper/pull/45" target="_blank" rel="noopener noreferrer">Merged PR #45 ↗</a></div>
+        </article>
+      </div>
+    </section>
+    <section id="open-source" class="wrap">
+      <div class="section-title"><span>02 /</span><h2><span class="lang-pt">Contribuições verificáveis</span><span class="lang-en">Verifiable contributions</span></h2></div>
+      <p class="sub lang-pt">Em vez de números de commits sem contexto, alguns exemplos concretos de mudanças aceitas em projetos colaborativos.</p>
+      <p class="sub lang-en">Instead of commit counts without context, here are real examples of changes accepted into collaborative projects.</p>
+      <div class="evidence">
+        <article class="fact"><p class="n">openOMSI · #4148</p><p class="lang-pt">Recuperação do atualizador para retornar ao canal estável quando uma versão apresenta falha.</p><p class="lang-en">Updater recovery: return to stable when an installed release is marked broken.</p><a href="https://github.com/openOMSI-org/openOMSI/pull/4148">Merged pull request ↗</a></article>
+        <article class="fact"><p class="n">openOMSI · #4126</p><p class="lang-pt">Novas opções de distância de renderização e mapas de sombra menores.</p><p class="lang-en">New draw-distance options and smaller shadow maps.</p><a href="https://github.com/openOMSI-org/openOMSI/pull/4126">Merged pull request ↗</a></article>
+        <article class="fact"><p class="n">openMapper · #13</p><p class="lang-pt">Rollback de arquivos de mapa quando uma gravação não é concluída.</p><p class="lang-en">Map file rollback when saving cannot finish.</p><a href="https://github.com/openOMSI-org/openMapper/pull/13">Merged pull request ↗</a></article>
+      </div>
+    </section>
+    <section id="about" class="wrap">
+      <div class="section-title"><span>03 /</span><h2><span class="lang-pt">Sobre mim</span><span class="lang-en">About me</span></h2></div>
+      <div class="about">
+        <div class="panel">
+          <h3><span class="lang-pt">Experiência e aprendizado</span><span class="lang-en">Experience & learning</span></h3>
+          <p class="lang-pt">Curso Sistemas de Informação e desenvolvo projetos para aprender na prática. Tenho experiência anterior com rotinas administrativas e atendimento, além de estudos em fundamentos de TI, hardware, montagem de computadores, bancos de dados e IA.</p>
+          <p class="lang-en">I'm studying Information Systems and learning through projects. My background includes administrative work and customer service, plus studies in IT fundamentals, PC hardware, databases and AI.</p>
+          <p class="lang-pt">Também estou desenvolvendo meu inglês para trabalhar melhor com documentação técnica, colaboração e oportunidades em tecnologia.</p>
+          <p class="lang-en">I'm actively improving my English for technical documentation, collaboration and technology career opportunities.</p>
+        </div>
+        <div class="panel">
+          <h3><span class="lang-pt">Áreas de interesse</span><span class="lang-en">Areas of interest</span></h3>
+          <ul class="lang-pt"><li>Suporte técnico e troubleshooting (N1)</li><li>Hardware, manutenção e infraestrutura</li><li>Desenvolvimento web e automação</li><li>Python, SQL e sistemas de informação</li><li>Software open source e desempenho</li></ul>
+          <ul class="lang-en"><li>IT support and troubleshooting (L1)</li><li>Hardware, maintenance and infrastructure</li><li>Web development and automation</li><li>Python, SQL and information systems</li><li>Open-source software and performance</li></ul>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="wrap">
+      <div class="contact">
+        <p class="eyebrow">04 / CONTACT</p>
+        <h2><span class="lang-pt">Vamos conversar?</span><span class="lang-en">Let's connect.</span></h2>
+        <p class="lang-pt">Tenho interesse em oportunidades de entrada em tecnologia, suporte de TI, infraestrutura e desenvolvimento. Meus projetos e contribuições estão disponíveis publicamente para consulta.</p>
+        <p class="lang-en">I'm interested in entry-level opportunities across IT support, infrastructure and development. My projects and contributions are available for review.</p>
+        <div class="actions"><a class="btn primary" href="https://github.com/isaacsa2" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a class="btn" href="https://isaacsa2.online" target="_blank" rel="noopener noreferrer"><span class="lang-pt">Site pessoal</span><span class="lang-en">Personal website</span> ↗</a></div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap foot"><span>© 2026 Isaac S. · Feira de Santana, Bahia</span><span><span class="lang-pt">Projetos reais. Aprendizado constante.</span><span class="lang-en">Real projects. Always learning.</span></span></div></footer>
+  <script>
+    (() => {
+      const buttons = [...document.querySelectorAll("[data-set-lang]")];
+      function setLanguage(lang) {
+        if (!["pt", "en"].includes(lang)) return;
+        document.body.dataset.language = lang;
+        document.documentElement.lang = lang === "pt" ? "pt-BR" : "en";
+        buttons.forEach(button => button.setAttribute("aria-pressed", String(button.dataset.setLang === lang)));
+      }
+      buttons.forEach(button => button.addEventListener("click", () => setLanguage(button.dataset.setLang)));
+    })();
+  </script>
+</body>
+</html>
