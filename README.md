@@ -107,8 +107,8 @@ Isaacsa2 | Isaac S.
 | --- | --- | --- |
 | **AC6C Tune Maker** | Ferramenta web para configurações de veículos com cálculos e exportação Luau. / Vehicle tuning web tool with calculations and Luau export. | [Código](https://github.com/isaacsa2/AC6) · [Demo](https://ac6.isaacsa2.online/) |
 | **ERP by Isaac** | ERP didático com Python/Flask, SQLite, estoque, PDV e laboratório SQL. / Educational ERP and SQL lab. | [Código](https://github.com/isaacsa2/erpbyisaacsa2) · [Demo educacional](https://erpbyisaacsa2.onrender.com/) |
-| **openOMSI** | Contribuições *merged* em updater, interface, renderização e estabilidade. / Merged open-source contributions to updates, UI, rendering and stability. | [Projeto upstream](https://github.com/openOMSI-org/openOMSI) · [PR #4148](https://github.com/openOMSI-org/openOMSI/pull/4148) · [PR #4126](https://github.com/openOMSI-org/openOMSI/pull/4126) |
-| **openMapper** | Contribuições *merged* em fallback gráfico e proteção contra falha ao salvar. / Merged changes for graphics fallback and safe saving. | [Projeto upstream](https://github.com/openOMSI-org/openMapper) · [PR #45](https://github.com/openOMSI-org/openMapper/pull/45) · [PR #13](https://github.com/openOMSI-org/openMapper/pull/13) |
+| **openOMSI** | Colaboração em motor de simulação, renderização, multiplayer, interface e estabilidade. / Work on simulation, rendering, multiplayer, UI and reliability. | [Projeto oficial](https://github.com/openOMSI-org/openOMSI) |
+| **openMapper** | Colaboração no editor de mapas e em melhorias de compatibilidade, segurança de gravação e estabilidade gráfica. / Work on map editing, graphics compatibility and save reliability. | [Projeto oficial](https://github.com/openOMSI-org/openMapper) |
 
 **[📁 Abrir código do site do portfólio / Portfolio website source](docs/index.html)** · Página estática responsiva, com versões PT-BR e EN, preparada para GitHub Pages.
 
