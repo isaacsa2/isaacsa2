@@ -12,6 +12,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-@isaacsa2-181717?style=for-the-badge&logo=github)](https://github.com/isaacsa2)
 [![Website](https://img.shields.io/badge/Website-isaacsa2.online-0969DA?style=for-the-badge&logo=cloudflare&logoColor=white)](https://isaacsa2.online)
+[![Support on Buy Me a Coffee](https://img.shields.io/badge/Support-Buy%20Me%20a%20Coffee-F6C659?style=for-the-badge&logo=buymeacoffee&logoColor=1B1B1B)](https://buymeacoffee.com/isaacsa2)
 ![Bahia](https://img.shields.io/badge/Bahia-Brasil-009C3B?style=for-the-badge)
 ![Profile views](https://komarev.com/ghpvc/?username=isaacsa2&style=for-the-badge&color=0969da&label=PROFILE+VIEWS)
 
@@ -131,6 +132,18 @@ Isaacsa2 | Isaac S.
 `Rust` · `Python` · `JavaScript` · `TypeScript` · `Java` · `HTML` · `CSS` · `Node.js` · `Git` · `Cloudflare`
 
 </div>
+
+---
+
+## ☕ Support / Apoie meus projetos
+
+🇧🇷 Se meus projetos, ferramentas ou contribuições open source foram úteis pra você, pode apoiar meu trabalho **voluntariamente**. Isso me ajuda a continuar aprendendo, desenvolvendo e mantendo projetos independentes.
+
+🇺🇸 If my tools, projects or open-source contributions have been useful to you, you can **optionally support my work** as I keep learning, building and maintaining independent projects.
+
+<p align="center">
+  <a href="https://buymeacoffee.com/isaacsa2" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-Support%20Isaac%20S.-F6C659?style=for-the-badge&logo=buymeacoffee&logoColor=1B1B1B" alt="Apoiar Isaac S. no Buy Me a Coffee" /></a>
+</p>
 
 ---
 
